@@ -1,0 +1,9 @@
+{
+  "name": "radio-website-school-project",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/EnderDev/radio-website-school-project",
+  "author": "Kieran <42723993+EnderDev@users.noreply.github.com>",
+  "license": "MIT",
+  "private": true
+}
