@@ -3,6 +3,8 @@ import { SocialBar } from "../SocialBar"
 import { GlobalStyle } from "../style"
 import { HeaderLinksController, HeaderMain, StyledHeader } from "./style"
 
+import Link from "next/link"
+
 import * as logo from "../../assets/logo.svg"
 
 export const Header = () => {
@@ -15,7 +17,7 @@ export const Header = () => {
             </HeaderMain>
             <HeaderLinksController>
                 <div>
-                    <Link to={"/"}>Home</Link>
+                    <Link href={"/"}>Home</Link>
                 </div>
             </HeaderLinksController>
         </StyledHeader>
