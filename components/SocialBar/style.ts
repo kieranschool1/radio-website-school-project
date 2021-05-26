@@ -7,14 +7,14 @@ export const StyledSocialBar = styled.div`
     display: flex;
     justify-content: flex-end;
     align-items: center;
-
-    & > i {
-        width: 16px;
-        height: 16px;
-        opacity: 0.7;
-    }
 `;
 
-export const SocialIcon = styled.i`
-    
+export const SocialIcon = styled.a`
+    width: 16px;
+    height: 16px;
+    opacity: 0.5;
+
+    &:hover {
+        opacity: 
+    }
 `;
