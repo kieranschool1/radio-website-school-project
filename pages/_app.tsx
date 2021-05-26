@@ -5,7 +5,7 @@ const MyApp = ({ Component, pageProps }) => {
   return (
     <>
       <Head>
-        <title>My new cool app</title>
+        <title>Chorus Radio</title>
       </Head>
       <Component {...pageProps} />
     </>
