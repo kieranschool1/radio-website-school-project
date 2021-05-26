@@ -8,6 +8,9 @@ import * as logo from "../../assets/logo.svg"
 export const Header = () => {
     return (
         <StyledHeader>
+            <Head>
+                
+            </Head>
             <GlobalStyle />
             <SocialBar />
             <HeaderMain>
