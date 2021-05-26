@@ -10,7 +10,9 @@ import * as twitter from "../../assets/twitter.svg"
 export const SocialBar = () => {
     return (
         <StyledSocialBar>
-            <SocialIcon icon={call} />
+            <div>
+                <SocialIcon icon={call} />
+            </div>
         </StyledSocialBar>
     )
 }
