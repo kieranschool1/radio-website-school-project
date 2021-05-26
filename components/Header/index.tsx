@@ -18,6 +18,10 @@ export const Header = () => {
             <HeaderLinksController>
                 <div>
                     <Link href={"/"}>Home</Link>
+                    <Link href={"/"}>Live at Five</Link>
+                    <Link href={"/"}>Home</Link>
+                    <Link href={"/"}>Home</Link>
+                    <Link href={"/"}>Home</Link>
                 </div>
             </HeaderLinksController>
         </StyledHeader>
