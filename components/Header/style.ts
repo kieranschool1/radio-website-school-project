@@ -5,6 +5,7 @@ export const StyledHeader = styled.header`
     position: sticky;
     display: flex;
     flex-direction: column;
+    background-color: var(--chorus-accent-color);
 `;
 
 export const HeaderMain = styled.main`
