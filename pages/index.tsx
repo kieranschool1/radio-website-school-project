@@ -4,9 +4,9 @@ import { Header } from '../components/Header'
 const Home = () => {
   return (
     <>
-        <NextSeo
-      title={"Chorus Radio • Home"}
-    ></NextSeo>
+      <NextSeo
+        title={"Chorus Radio • Home"}
+      />
       <Header />
       <div>eafdmghfdkjghfdgkdjfshgdsflkjgdfg</div>
     </>
