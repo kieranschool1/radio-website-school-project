@@ -8,8 +8,8 @@ export const StyledHeader = styled.header`
 `;
 
 export const HeaderMain = styled.main`
-    padding: 38px 120px;
-    width: calc(100% - 120px * 2);
+    padding: 38px 7.5rem;
+    width: calc(100% - 7.5rem * 2);
     background-color: var(--chorus-accent-color);
     min-height: 140px;
     max-height: 140px;
