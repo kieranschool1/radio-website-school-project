@@ -33,6 +33,8 @@ export const HeaderLinksController = styled.ul`
     & > div {
         max-width: 40rem;
         width: 100%;
+        display: flex;
+        gap: 24px;
         margin: 0 auto;
     }
 
