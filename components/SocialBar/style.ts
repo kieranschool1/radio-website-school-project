@@ -13,7 +13,9 @@ export const SocialIcon = styled.a`
     width: 16px;
     height: 16px;
     opacity: 0.5;
-    background-image: var(--social-icon);
+    background-image: var(--social-icon-image);
+    background-size: cover;
+    background-repeat: no-repeat;
 
     &:hover {
         opacity: 0.7;
