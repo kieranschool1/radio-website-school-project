@@ -14,7 +14,7 @@ const Fonts = `
   font-style: italic;
   font-weight: 400;
   font-display: swap;
-  src: url(fonts/DMSans-Regular.ttf) format('truetype');
+  src: url(fonts/DMSans-Italic.ttf) format('truetype');
 }
 
 @font-face {
