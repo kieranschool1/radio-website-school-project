@@ -1,7 +1,7 @@
 import React from "react"
 import { SocialBar } from "../SocialBar"
 import { GlobalStyle } from "../style"
-import { HeaderMain, StyledHeader } from "./style"
+import { HeaderLinksController, HeaderMain, StyledHeader } from "./style"
 
 import * as logo from "../../assets/logo.svg"
 
@@ -12,6 +12,9 @@ export const Header = () => {
             <SocialBar />
             <HeaderMain>
                 <img src={logo}></img>
+                <HeaderLinksController>
+                    bingus
+                </HeaderLinksController>
             </HeaderMain>
         </StyledHeader>
     )
