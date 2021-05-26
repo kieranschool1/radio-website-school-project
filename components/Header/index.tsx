@@ -15,7 +15,7 @@ export const Header = () => {
             </HeaderMain>
             <HeaderLinksController>
                 <div>
-                    bingus
+                    Test
                 </div>
             </HeaderLinksController>
         </StyledHeader>

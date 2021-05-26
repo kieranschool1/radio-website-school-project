@@ -8,6 +8,7 @@ export const StyledSocialBar = styled.div`
     justify-content: flex-end;
     align-items: center;
     background-color: var(--chorus-white);
+    gap: 16px;
 `;
 
 export const SocialIcon = styled.a`
