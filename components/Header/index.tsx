@@ -6,6 +6,7 @@ import { HeaderLinksController, HeaderMain, StyledHeader } from "./style"
 import Link from "next/link"
 
 import * as logo from "../../assets/logo.svg"
+import { id } from "../../shared/id"
 
 export const Header = () => {
     return (
@@ -18,7 +19,7 @@ export const Header = () => {
             <HeaderLinksController>
                 <div>
                     <Link href={"/"}>Home</Link>
-                    <Link href={"/shows/live-at-five"}>Live at Five</Link>
+                    <Link href={`/shows/${id()}/live-at-five`}>Live at Five</Link>
                     <Link href={"/"}>Home</Link>
                     <Link href={"/"}>Home</Link>
                     <Link href={"/"}>Home</Link>
