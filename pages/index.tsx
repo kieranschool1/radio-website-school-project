@@ -4,7 +4,8 @@ import { Header } from '../components/Header'
 const Home = () => {
   return (
     <>
-      <Header/>
+      <Header />
+      <div>how is it going with the bingus? dfgfdgfdg</div>
     </>
   )
 }
