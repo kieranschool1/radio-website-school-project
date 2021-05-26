@@ -22,7 +22,7 @@ const Fonts = `
   font-style: italic;
   font-weight: 500;
   font-display: swap;
-  src: url(fonts/DMSans-Medium.ttf) format('truetype');
+  src: url(fonts/DMSans-MediumItalic.ttf) format('truetype');
 }
 
 @font-face {
@@ -30,7 +30,7 @@ const Fonts = `
   font-style: italic;
   font-weight: 700;
   font-display: swap;
-  src: url(fonts/DMSans-Bold.ttf) format('truetype');
+  src: url(fonts/DMSans-BoldItalic.ttf) format('truetype');
 }
 
 @font-face {
@@ -65,7 +65,7 @@ export const GlobalStyle = createGlobalStyle`
     html, body {
         margin: 0;
         padding: 0;
-        font-family: 'DM Serif Display';
+        font-family: 'DM Sans';
     }
 
     :root {
