@@ -2,7 +2,7 @@ import Head from 'next/head'
 
 const Home = () => {
   return (
-    <div>how is it going with the bingus?</div>
+    <div>how is it going with the bingus? dfgfdgfdg</div>
   )
 }
 
