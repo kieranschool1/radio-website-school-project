@@ -17,6 +17,12 @@ export const SocialIcon = styled.a`
     background-size: cover;
     background-repeat: no-repeat;
 
+    ${({ icon }: { icon: any
+        size?: number
+        lsp?: number
+        rsp?: number
+      }) => css`
+
     &:hover {
         opacity: 0.7;
     }
