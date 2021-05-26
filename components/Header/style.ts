@@ -44,6 +44,10 @@ export const HeaderLinksController = styled.ul`
     }
 
     & > div > a:hover {
-        
+        opacity: 0.7;
+    }
+
+    & > div > a:active {
+        opacity: 0.5;
     }
 `;
