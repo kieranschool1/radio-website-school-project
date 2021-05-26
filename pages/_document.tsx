@@ -10,7 +10,7 @@ class MyDocument extends Document {
         return (
             <Html>
                 <Head>
-                    
+                    <title>Chorus Radio</title>
                 </Head>
                 <body>
                     <Main />
