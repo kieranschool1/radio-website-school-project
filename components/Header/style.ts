@@ -18,7 +18,9 @@ export const HeaderMain = styled.main`
 `;
 
 export const HeaderLinksController = styled.ul`
-    background: rgba(0, 0, 0, 0.27);
-    box-shadow: inset 0px 2px 4px rgba(0, 0, 0, 0.25);
+    background: rgba(0,0,0,0.27);
+    box-shadow: inset 0px 2px 4px rgb(0 0 0 / 25%);
     height: 38px;
+    margin: 0;
+    color: var(--chorus-white);
 `;
