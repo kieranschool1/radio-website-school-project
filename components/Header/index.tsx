@@ -4,7 +4,6 @@ import { GlobalStyle } from "../style"
 import { HeaderLinksController, HeaderMain, StyledHeader } from "./style"
 
 import * as logo from "../../assets/logo.svg"
-import { Head } from "next/document"
 
 export const Header = () => {
     return (
@@ -16,7 +15,7 @@ export const Header = () => {
             </HeaderMain>
             <HeaderLinksController>
                 <div>
-                    <Link>Home</a>
+                    <Link to={"/"}>Home</Link>
                 </div>
             </HeaderLinksController>
         </StyledHeader>
