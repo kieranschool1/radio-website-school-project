@@ -11,8 +11,8 @@ export const StyledSocialBar = styled.div`
 `;
 
 export const SocialIcon = styled.a`
-    width: 16px;
-    height: 16px;
+    width: 14px;
+    height: 14px;
     opacity: 0.5;
     background-size: cover;
     background-repeat: no-repeat;
