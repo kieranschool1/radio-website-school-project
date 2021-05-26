@@ -13,8 +13,13 @@ export const SocialIcon = styled.a`
     width: 16px;
     height: 16px;
     opacity: 0.5;
+    background-image: var(--social-icon);
 
     &:hover {
-        opacity: 
+        opacity: 0.7;
+    }
+
+    &:active {
+        opacity: 0.9;
     }
 `;
