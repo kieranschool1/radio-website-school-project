@@ -4,7 +4,7 @@ import { Header } from '../components/Header'
 const Home = () => {
   return (
     <>
-      <title>Chorus Radio </title>
+      <title>Chorus Radio • Home</title>
       <Header />
       <div>eafdmghfdkjghfdgkdjfshgdsflkjgdfg</div>
     </>
