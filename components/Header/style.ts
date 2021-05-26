@@ -9,13 +9,13 @@ export const StyledHeader = styled.header`
 `;
 
 export const HeaderMain = styled.main`
-    padding: 38px 7.5rem;
-    width: calc(100% - 7.5rem * 2);
+    width: 100%;
     background-color: var(--chorus-accent-color);
     min-height: 140px;
     max-height: 140px;
     display: flex;
-    align-items: center;
+    max-width: 40rem;
+    margin: 0 auto;
 `;
 
 export const HeaderLinksController = styled.ul`
