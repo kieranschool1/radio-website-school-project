@@ -26,7 +26,13 @@ export const HeaderLinksController = styled.ul`
     color: var(--chorus-white);
     display: flex;
     align-items: center;
-    padding: 0px 7.5rem;
-    width: calc(100% - 7.5rem * 2);
+    padding: 0;
+    width: 100%;
     min-height: 42px;
+
+    & > div {
+        max-width: 40rem;
+        width: 100%;
+        margin: 0 auto;
+    }
 `;
