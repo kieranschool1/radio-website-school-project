@@ -4,13 +4,11 @@ import { GlobalStyle } from "../style"
 import { HeaderLinksController, HeaderMain, StyledHeader } from "./style"
 
 import * as logo from "../../assets/logo.svg"
+import { Head } from "next/document"
 
 export const Header = () => {
     return (
         <StyledHeader>
-            <Head>
-                
-            </Head>
             <GlobalStyle />
             <SocialBar />
             <HeaderMain>
