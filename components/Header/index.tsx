@@ -12,10 +12,10 @@ export const Header = () => {
             <SocialBar />
             <HeaderMain>
                 <img src={logo}></img>
-                <HeaderLinksController>
-                    bingus
-                </HeaderLinksController>
             </HeaderMain>
+            <HeaderLinksController>
+                bingus
+            </HeaderLinksController>
         </StyledHeader>
     )
 }
