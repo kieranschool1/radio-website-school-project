@@ -14,7 +14,9 @@ export const Header = () => {
                 <img src={logo}></img>
             </HeaderMain>
             <HeaderLinksController>
-                bingus
+                <div>
+                    bingus
+                </div>
             </HeaderLinksController>
         </StyledHeader>
     )
