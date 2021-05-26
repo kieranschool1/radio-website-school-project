@@ -7,6 +7,7 @@ export const GlobalStyle = createGlobalStyle`
     }
 
     :root {
-        --
+        --chorus-accent-color: #114ADD;
+        --chorus-white: #FFFFFF;
     }
 `
