@@ -1,3 +1,3 @@
 export default function handler(req, res) {
-    res.status(200).json({ name: 'Next.js' })
-  }
+    res.status(200).json({ status: 200, ok: true })
+}
