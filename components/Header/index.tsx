@@ -16,7 +16,7 @@ export const Header = () => {
             </HeaderMain>
             <HeaderLinksController>
                 <div>
-                    Test
+                    <Link>Home</a>
                 </div>
             </HeaderLinksController>
         </StyledHeader>
