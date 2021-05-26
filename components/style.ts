@@ -21,4 +21,6 @@ export const GlobalStyle = createGlobalStyle`
         --chorus-accent-color: #114ADD;
         --chorus-white: #FFFFFF;
     }
+
+    ${Fonts};
 `;
