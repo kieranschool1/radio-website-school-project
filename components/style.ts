@@ -30,7 +30,7 @@ const Fonts = `
   font-style: italic;
   font-weight: 700;
   font-display: swap;
-  src: url(https://fonts.gstatic.com/s/dmsans/v6/rP2Ap2ywxg089UriCZawpBqWB3wTyCg.woff2) format('truetype');
+  src: url(fonts/DMSans-) format('truetype');
 }
 
 @font-face {
