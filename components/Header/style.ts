@@ -6,3 +6,7 @@ export const StyledHeader = styled.header`
     display: flex;
     flex-direction: column;
 `;
+
+export const HeaderMain = styled.main`
+    
+`;
