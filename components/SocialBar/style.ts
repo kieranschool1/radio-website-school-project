@@ -1,4 +1,4 @@
-import styled from "styled-components";
+import styled, { css } from "styled-components";
 
 export const StyledSocialBar = styled.div`
     width: 100%;
@@ -17,7 +17,7 @@ export const SocialIcon = styled.a`
     background-repeat: no-repeat;
 
     ${({ icon }: { icon: any }) => css`
-        background-image: ${icon};
+        background-image: url(${icon});
     `};
 
     &:hover {
