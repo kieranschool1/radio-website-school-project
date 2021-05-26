@@ -8,5 +8,7 @@ export const StyledHeader = styled.header`
 `;
 
 export const HeaderMain = styled.main`
-    
+    margin: 0 120px;
+    width: 100%;
+    background-color: var(--chorus-accent-color);
 `;
