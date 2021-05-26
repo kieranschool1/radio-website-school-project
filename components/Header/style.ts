@@ -42,7 +42,6 @@ export const HeaderLinksController = styled.ul`
         font-weight: 700;
         text-decoration: none;
         color: var(--chorus-white);
-        font-family: 'DM Sans';
     }
 
     & > div > a:hover {
