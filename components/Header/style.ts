@@ -13,4 +13,6 @@ export const HeaderMain = styled.main`
     background-color: var(--chorus-accent-color);
     min-height: 140px;
     max-height: 140px;
+    display: flex;
+    align-items: center;
 `;
