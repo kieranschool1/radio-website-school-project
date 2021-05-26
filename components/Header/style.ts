@@ -21,12 +21,12 @@ export const HeaderMain = styled.main`
 export const HeaderLinksController = styled.ul`
     background: rgba(0,0,0,0.27);
     box-shadow: inset 0px 2px 4px rgb(0 0 0 / 25%);
-    height: 48px;
+    height: 42px;
     margin: 0;
     color: var(--chorus-white);
     display: flex;
     align-items: center;
     padding: 0px 7.5rem;
     width: calc(100% - 7.5rem * 2);
-    min-height: 48px;
+    min-height: 42px;
 `;
