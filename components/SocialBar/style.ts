@@ -1,4 +1,5 @@
 export const StyledSocialBar = styled.div`
     width: 100%;
-    height: 
+    height: 28px;
+    padding: 0 
 `;
