@@ -9,6 +9,12 @@ export const StyledSocialBar = styled.div`
     align-items: center;
 
     & > i {
-        
+        width: 16px;
+        height: 16px;
+        opacity: 0.7;
     }
+`;
+
+export const SocialIcon = styled.i`
+    
 `;
