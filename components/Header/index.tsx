@@ -19,7 +19,7 @@ export const Header = () => {
             <HeaderLinksController>
                 <div>
                     <Link href={"/"}>Home</Link>
-                    <Link href={`/shows/${id()}/live-at-five`}>Live at Five</Link>
+                    <Link href={`/shows/${id(1)}/live-at-five`}>Live at Five</Link>
                     <Link href={"/"}>Home</Link>
                     <Link href={"/"}>Home</Link>
                     <Link href={"/"}>Home</Link>
