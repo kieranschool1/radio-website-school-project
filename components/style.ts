@@ -14,7 +14,7 @@ const Fonts = `
   font-style: italic;
   font-weight: 400;
   font-display: swap;
-  src: url(fonts/DMSans) format('woff2');
+  src: url(fonts/DMSans-Regular.ttf) format('woff2');
 }
 
 @font-face {
