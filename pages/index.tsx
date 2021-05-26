@@ -3,12 +3,13 @@ import { Header } from '../components/Header'
 
 const Home = () => {
   return (
-    <NextSeo
+    <>
+        <NextSeo
       title={"Chorus Radio • Home"}
-    >
+    ></NextSeo>
       <Header />
       <div>eafdmghfdkjghfdgkdjfshgdsflkjgdfg</div>
-    </NextSeo>
+    </>
   )
 }
 
