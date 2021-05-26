@@ -11,6 +11,9 @@ export const SocialBar = () => {
     return (
         <StyledSocialBar>
             <SocialIcon icon={call} />
+            <SocialIcon icon={email} />
+            <SocialIcon icon={facebook} />
+            <SocialIcon icon={call} />
         </StyledSocialBar>
     )
 }
