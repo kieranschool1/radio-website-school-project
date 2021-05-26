@@ -16,3 +16,5 @@ export const HeaderMain = styled.main`
     display: flex;
     align-items: center;
 `;
+
+export const HeaderLinksController = styled.lis
