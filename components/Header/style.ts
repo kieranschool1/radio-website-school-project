@@ -8,7 +8,8 @@ export const StyledHeader = styled.header`
 `;
 
 export const HeaderMain = styled.main`
-    margin: 0 120px;
-    width: 100%;
+    padding: 0 120px;
+    width: calc(100% - 120px * 2);
     background-color: var(--chorus-accent-color);
+    height: 130px;
 `;
