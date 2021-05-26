@@ -12,6 +12,8 @@ const Fonts = `
 `;
 
 export const GlobalStyle = createGlobalStyle`
+    ${Fonts};
+
     html, body {
         margin: 0;
         padding: 0;
