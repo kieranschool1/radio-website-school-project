@@ -1,7 +1,7 @@
 import styled, { css } from "styled-components";
 
 export const StyledSocialBar = styled.div`
-    width: 100%;
+    width: calc(100% - 16px * 2);
     height: 28px;
     padding: 0px 16px;
     display: flex;
