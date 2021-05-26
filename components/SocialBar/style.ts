@@ -16,6 +16,7 @@ export const SocialIcon = styled.a`
     opacity: 0.5;
     background-size: cover;
     background-repeat: no-repeat;
+    cursor: pointer;
 
     ${({ icon }: { icon: any }) => css`
         background-image: url(${icon});
