@@ -9,19 +9,17 @@ export const StyledHeader = styled.header`
 `;
 
 export const HeaderMain = styled.main`
-    width: 100%;
     background-color: var(--chorus-accent-color);
     min-height: 140px;
     max-height: 140px;
     display: flex;
-    max-width: 40rem;
-    margin: 0 auto;
+    max-width: 70rem;
+    padding: 0 32px;
 `;
 
 export const HeaderLinksController = styled.ul`
     background: rgba(0,0,0,0.27);
     box-shadow: inset 0px 2px 4px rgb(0 0 0 / 25%);
-    height: 42px;
     margin: 0;
     color: var(--chorus-white);
     display: flex;
@@ -31,15 +29,17 @@ export const HeaderLinksController = styled.ul`
     min-height: 42px;
 
     & > div {
-        max-width: 40rem;
+        max-width: 70rem;
         width: 100%;
         display: flex;
         gap: 24px;
         margin: 0 auto;
+        flex-flow: wrap;
+        padding: 10.5px 32px;
     }
 
     & > div > a {
-        font-weight: 700;
+        font-weight: 500;
         text-decoration: none;
         color: var(--chorus-white);
     }

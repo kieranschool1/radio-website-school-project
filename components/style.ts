@@ -11,30 +11,6 @@ const Fonts = `
 
 @font-face {
   font-family: 'DM Sans';
-  font-style: italic;
-  font-weight: 400;
-  font-display: swap;
-  src: url(fonts/DMSans-Italic.ttf) format('truetype');
-}
-
-@font-face {
-  font-family: 'DM Sans';
-  font-style: italic;
-  font-weight: 500;
-  font-display: swap;
-  src: url(fonts/DMSans-MediumItalic.ttf) format('truetype');
-}
-
-@font-face {
-  font-family: 'DM Sans';
-  font-style: italic;
-  font-weight: 700;
-  font-display: swap;
-  src: url(fonts/DMSans-BoldItalic.ttf) format('truetype');
-}
-
-@font-face {
-  font-family: 'DM Sans';
   font-style: normal;
   font-weight: 400;
   font-display: swap;
@@ -46,7 +22,7 @@ const Fonts = `
   font-style: normal;
   font-weight: 500;
   font-display: swap;
-  src: url(https://fonts.gstatic.com/s/dmsans/v6/rP2Cp2ywxg089UriAWCrCBamC2QX.woff2) format('truetype');
+  src: url(fonts/DMSans-Medium.ttf) format('truetype');
 }
 
 
@@ -55,7 +31,7 @@ const Fonts = `
   font-style: normal;
   font-weight: 700;
   font-display: swap;
-  src: url(https://fonts.gstatic.com/s/dmsans/v6/rP2Cp2ywxg089UriASitCBamC2QX.woff2) format('truetype');
+  src: url(fonts/DMSans-Bold.ttf) format('truetype');
 }
 `;
 
