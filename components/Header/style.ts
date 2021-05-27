@@ -16,6 +16,8 @@ export const HeaderMain = styled.main`
     display: flex;
     max-width: 70rem;
     padding: 0 32px;
+    margin: 0 auto;
+    width: calc(100% - 32px * 2);
 `;
 
 export const HeaderLinksController = styled.ul`
