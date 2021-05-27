@@ -8,7 +8,28 @@ import Link from "next/link"
 import * as logo from "../../assets/logo.svg"
 import { id } from "../../shared/id"
 
-export const Header = () => {
+const pages = [
+    {
+        name: "Home",
+        href: "/"
+    },
+    {
+        name: "Live at Five",
+        href: `/shows/${id(1)}/live-at-five`
+    }
+]
+
+const HeaderLink = ({ children, href, selected }) => {
+    return (
+        <span style={{ fontWeight: selected ? 700 : 0 }}>
+            <Link href={href}>
+                {children}
+            </Link>
+        </span>
+    )
+}
+
+export const Header = ({ currentPage }: { currentPage?: number }) => {
     return (
         <StyledHeader>
             <GlobalStyle />
@@ -18,11 +39,9 @@ export const Header = () => {
             </HeaderMain>
             <HeaderLinksController>
                 <div>
-                    <Link href={"/"}>Home</Link>
-                    <Link href={`/shows/${id(1)}/live-at-five`}>Live at Five</Link>
-                    <Link href={"/"}>Home</Link>
-                    <Link href={"/"}>Home</Link>
-                    <Link href={"/"}>Home</Link>
+                    {pages.map((page, index) => (
+                        <HeaderLink selected={currentPage == index} href={page.href}>{page.name}</HeaderLink>
+                    ))}
                 </div>
             </HeaderLinksController>
         </StyledHeader>

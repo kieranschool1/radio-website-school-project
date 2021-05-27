@@ -6,6 +6,7 @@ export const StyledHeader = styled.header`
     display: flex;
     flex-direction: column;
     background-color: var(--chorus-accent-color);
+    margin-bottom: 2.5rem;
 `;
 
 export const HeaderMain = styled.main`
@@ -36,19 +37,19 @@ export const HeaderLinksController = styled.ul`
         margin: 0 auto;
         flex-flow: wrap;
         padding: 10.5px 32px;
+        font-weight: 400;
     }
 
-    & > div > a {
-        font-weight: 500;
+    & > div a {
         text-decoration: none;
         color: var(--chorus-white);
     }
 
-    & > div > a:hover {
+    & > div a:hover {
         opacity: 0.7;
     }
 
-    & > div > a:active {
+    & > div a:active {
         opacity: 0.5;
     }
 `;

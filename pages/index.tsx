@@ -7,7 +7,7 @@ const Home = () => {
       <NextSeo
         title={"Chorus Radio • Home"}
       />
-      <Header />
+      <Header currentPage={0} />
       <div>eafdmghfdkjghfdgkdjfshgdsflkjgdfg</div>
     </>
   )
